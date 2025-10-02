@@ -32,13 +32,13 @@ function AddUserForm({ addUser }) {
       <input
         type="text"
         placeholder="Name"
-        value={name}                 // Controlled input
+        value={name} // Controlled input
         onChange={(e) => setName(e.target.value)} // Update state
       />
       <input
         type="email"
         placeholder="Email"
-        value={email}                // Controlled input
+        value={email} // Controlled input
         onChange={(e) => setEmail(e.target.value)} // Update state
       />
       <button type="submit">Add User</button> {/* Submit button */}
