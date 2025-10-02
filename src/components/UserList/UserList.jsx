@@ -53,7 +53,6 @@ function UserList() {
   } else if (sortOrder === 'desc') {
     filteredUsers = [...filteredUsers].sort((a, b) => b.name.localeCompare(a.name));
   }
-  // "none" = nuk bëjmë sorting
 
   return (
     <div className="user-list">
