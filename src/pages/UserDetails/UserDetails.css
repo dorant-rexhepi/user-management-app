@@ -1,15 +1,15 @@
 .user-details {
-  max-width: 450px;
-  margin: 30px auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 450px; /* Limit container width */
+  margin: 30px auto; /* Center container vertically and horizontally */
+  padding: 20px; /* Inner spacing */
+  background-color: #fff; /* White background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
   text-align: left;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .user-details h2 {
-  text-align: center;
+  text-align: center; /* Centered title */
   margin-bottom: 20px;
   font-size: 1.8rem;
   color: #333;
@@ -20,8 +20,8 @@
   color: #555;
 }
 .user-details p strong {
-  color: #222;
-  width: 90px;
+  color: #222; /* Label color */
+  width: 90px; /* Fixed width for alignment */
   display: inline-block;
 }
 .user-details a {
@@ -30,13 +30,13 @@
   padding: 8px 16px;
   text-align: center;
   color: #fff;
-  background-color: #1976d2;
+  background-color: #1976d2; /* Button color */
   border-radius: 6px;
   text-decoration: none;
   transition: background 0.3s;
 }
 .user-details a:hover {
-  background-color: #125ea3;
+  background-color: #125ea3; /* Hover color */
 }
 
 /*# sourceMappingURL=UserDetails.css.map */

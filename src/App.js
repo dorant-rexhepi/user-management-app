@@ -4,18 +4,22 @@ import { useDispatch, useSelector } from 'react-redux';
 import { setUsers } from './redux/userSlice';
 import UserList from './components/UserList/UserList';
 import UserDetails from './pages/UserDetails/UserDetails';
+
 function App() {
   const dispatch = useDispatch();
-  const users = useSelector(state => state.users.users);
+  const users = useSelector(state => state.users.users); // Get users from Redux
+
+  // Fetch users on component mount
   useEffect(() => {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(res => res.json())
-      .then(data => dispatch(setUsers(data)));
+      .then(data => dispatch(setUsers(data))); // Save users to Redux
   }, [dispatch]);
+
   return (
     <Routes>
-      <Route path="/" element={<UserList users={users} />} />
-      <Route path="/user/:id" element={<UserDetails users={users} />} />
+      <Route path="/" element={<UserList users={users} />} /> {/* Users list page */}
+      <Route path="/user/:id" element={<UserDetails users={users} />} /> {/* User details page */}
     </Routes>
   );
 }

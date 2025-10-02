@@ -1,9 +1,9 @@
 .search-bar {
-  width: 50%;
-  max-width: 400px;
-  display: block;
-  margin: 0 auto 20px;
-  padding: 8px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
+  width: 50%;               /* Input width */
+  max-width: 400px;         /* Maximum width */
+  display: block;           /* Block element for centering */
+  margin: 0 auto 20px;      /* Center horizontally with bottom margin */
+  padding: 8px;             /* Inner spacing */
+  border-radius: 4px;       /* Rounded corners */
+  border: 1px solid #ccc;   /* Border color */
 }

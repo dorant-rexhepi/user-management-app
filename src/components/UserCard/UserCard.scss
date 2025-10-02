@@ -1,25 +1,25 @@
 .user-card {
-  background-color: white;
-  padding: 16px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  width: 200px;
+  background-color: white; /* Card background */
+  padding: 16px; /* Inner spacing */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Soft shadow */
+  width: 200px; /* Fixed card width */
 
   .user-name {
-    font-weight: bold;
+    font-weight: bold; /* Bold text for name */
     font-size: 14px;
   }
 
   .user-email, .user-company {
     font-size: 14px;
-    color: #555;
+    color: #555; /* Subtle text color */
   }
 
   .details-button {
     display: inline-block;
     margin-top: 10px;
     padding: 6px 12px;
-    background-color: #1976d2;
+    background-color: #1976d2; /* Button background */
     color: white;
     border-radius: 4px;
     text-decoration: none;

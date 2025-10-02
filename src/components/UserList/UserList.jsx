@@ -88,10 +88,6 @@ function UserList() {
           {sortOrder === 'asc' ? '↑' : sortOrder === 'desc' ? '↓' : '↕'}
         </button>
       </div>
-
-
-
-
       <div className="cards-container">
         {filteredUsers.map(user => (
           <div key={user.id || user.email} className="user-card-wrapper">
@@ -106,5 +102,4 @@ function UserList() {
     </div>
   );
 }
-
 export default UserList;

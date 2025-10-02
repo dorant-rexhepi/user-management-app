@@ -1,9 +1,9 @@
 .home-page {
-  padding: 20px;
-  text-align: center;
+  padding: 20px; /* Inner spacing for the page */
+  text-align: center; /* Center content */
 }
 .home-page h1 {
-  margin-bottom: 20px;
+  margin-bottom: 20px; /* Space below the page title */
 }
 
 /*# sourceMappingURL=Home.css.map */
