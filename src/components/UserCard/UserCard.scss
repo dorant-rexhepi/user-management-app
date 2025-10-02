@@ -1,0 +1,28 @@
+.user-card {
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 200px;
+
+  .user-name {
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .user-email, .user-company {
+    font-size: 14px;
+    color: #555;
+  }
+
+  .details-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    background-color: #1976d2;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+  }
+}
